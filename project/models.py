@@ -1,11 +1,11 @@
+from project import db
 
-
-class Accrual:
+class Accrual(db.Model):
     id = db.Column(db.Integer(), primary_key = True)
     date = db.Column(db.DateTime())
     month = db.Column(db.Integer())
 
-class Payment:
+class Payment(db.Model):
     id = db.Column(db.Integer(), primary_key = True)
     date = db.Column(db.DateTime())
     month = db.Column(db.Integer())    
