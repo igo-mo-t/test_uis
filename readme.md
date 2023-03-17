@@ -87,8 +87,9 @@ APP3/ - основная папка проекта
         http://127.0.0.1:5000/task_3
         
         Ответ:
+
         {
-    "Accrual, Payment": [
+       "Accrual, Payment": [
         [
             {
                 "date": "2023-01-25",
@@ -173,8 +174,8 @@ APP3/ - основная папка проекта
                 "month": 7
             }
         ]
-    ],
-    "List of not used payments": [
+       ],
+       "List of not used payments": [
         {
             "date": "2023-07-28",
             "id": 8,
@@ -190,5 +191,5 @@ APP3/ - основная папка проекта
             "id": 10,
             "month": 9
         }
-    ]
-}
+       ]
+       }
