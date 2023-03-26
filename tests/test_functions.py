@@ -17,7 +17,7 @@ def test_days_between_dates():
 
 def test_remove_k_digits():
     """
-    GIVEN days_between_dates function
+    GIVEN remove_k_digits function
     WHEN function call
     THEN correct return
     """
