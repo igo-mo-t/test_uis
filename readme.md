@@ -16,15 +16,15 @@
 
 2. Структура приложения
 
-APP3/ - основная папка проекта
+test_uis/ - основная папка проекта
     
-    APP3/project - папка проекта с основными файлами .py
-        APP3/project/__init__.py  - файл инициализации пакета приложения с объектами приложения и БД   
-        APP3/project/functions.py - файл с определяемыми функциями приложения
-        APP3/project/models.py - модель данных
-        APP3/project/views.py - функции-обработчики эндпоинтов
+    test_uis/project - папка проекта с основными файлами .py
+        test_uis/project/__init__.py  - файл инициализации пакета приложения с объектами приложения и БД   
+        test_uis/project/functions.py - файл с определяемыми функциями приложения
+        test_uis/project/models.py - модель данных
+        test_uis/project/views.py - функции-обработчики эндпоинтов
     
-    APP3/tests - папка с тестами
+    test_uis/tests - папка с тестами
         APP3/tests/__init__.py - файл инициализации пакета
         APP3/tests/test_functions.py - файл с тестами
     
